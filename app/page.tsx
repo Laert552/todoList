@@ -60,12 +60,12 @@ export default function HomePage() {
   };
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-slate-950 px-4 py-10 text-slate-100">
-      <section className="w-full max-w-2xl rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/40 backdrop-blur-sm sm:p-8">
-        <h1 className="mb-2 text-center text-2xl font-semibold tracking-tight sm:text-3xl">
+    <main className="flex min-h-screen items-center justify-center px-4 py-10 text-slate-900">
+      <section className="card-pattern w-full max-w-2xl rounded-3xl border border-slate-200/80 bg-slate-50/95 p-6 shadow-xl shadow-slate-300/60 backdrop-blur-sm sm:p-8">
+        <h1 className="mb-2 text-center text-3xl font-semibold tracking-tight sm:text-4xl">
           To-Do List
         </h1>
-        <p className="mb-6 text-center text-sm text-slate-400">
+        <p className="mb-6 text-center text-sm text-slate-500">
           Добавляйте задачи.
         </p>
 
@@ -82,3 +82,4 @@ export default function HomePage() {
     </main>
   );
 }
+

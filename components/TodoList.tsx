@@ -16,7 +16,7 @@ export function TodoList({
 }: TodoListProps) {
   if (tasks.length === 0) {
     return (
-      <p className="py-6 text-center text-sm text-slate-500">
+      <p className="py-6 text-center text-sm text-slate-400">
         Пока нет задач. Добавьте первую, чтобы начать.
       </p>
     );
